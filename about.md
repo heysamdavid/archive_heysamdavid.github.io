@@ -3,7 +3,7 @@ layout: default
 title: Blog Posts
 ---
 
-portland, oregon. 
-coffee snob. 
-whiskey lover. 
-queer.
+portland, oregon. <br/>
+coffee snob. <br/>
+whiskey lover. <br/>
+queer. <br/>
