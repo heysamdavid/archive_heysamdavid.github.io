@@ -3,3 +3,6 @@ highlighter: rouge
 url: http://samdavid.co
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+gems:
+  - jekyll-auto-image
