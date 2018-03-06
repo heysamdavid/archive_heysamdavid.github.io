@@ -5,23 +5,23 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
-  #bitbucket: philipj
-  hacker_news: swanson
-  #stackexchange: 348619
-  #stackoverflow: 348619
-  twitter: _swanson
-  #facebook: zuck
-  #tumblr: animalygifs
-  #linkedin: philipjagielski
-  #gplus: 110552447039675960964
-  #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
-  #flickr: johndoe
+  github: heysamdavid
+  #bitbucket: 
+  #hacker_news: 
+  #stackexchange: 
+  #stackoverflow: 
+  twitter: sampdxxx
+  facebook: sdpdx
+  #tumblr: 
+  linkedin: heysamdavid
+  #gplus: 
+  gravatar: 19095c21ff76c860e083deda00b328c3
+  #flickr: 
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: sam david
+email: hi@samdavid.co
+tagline: "meow."
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x
