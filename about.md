@@ -3,4 +3,7 @@ layout: default
 title: Blog Posts
 ---
 
-Random
+portland, oregon. 
+coffee snob. 
+whiskey lover. 
+queer.
