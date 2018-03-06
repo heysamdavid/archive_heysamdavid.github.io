@@ -6,7 +6,7 @@ layout: default
   {{ page.date | date: "%B %d, %Y" }}
   {% if page.tags %} | 
   {% for tag in page.tags %}
-    <i class="fas fa-tag"></i> <a href="{{ site.baseurl }}/blog/tag.html#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+    <i class="fas fa-tag fa-sm"></i> <a href="{{ site.baseurl }}/blog/tag.html#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
   {% endfor %}
   {% endif %}
   
