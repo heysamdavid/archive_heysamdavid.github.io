@@ -1,26 +1,35 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>The blog of {{ site.data.theme.name }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>The blog of sam david</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2018-03-07T00:07:47-08:00</updated>
+ <id>http://localhost:4000</id>
  <author>
-   <name>{{ site.data.theme.name }}</name>
-   <email>{{ site.data.theme.email }}</email>
+   <name>sam david</name>
+   <email>hi@samdavid.co</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{site.url}}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>hell[o]</title>
+   <link href="http://localhost:4000/blog/2018/03/05/hello.html"/>
+   <updated>2018-03-05T00:00:00-08:00</updated>
+   <id>http://localhost:4000/blog/2018/03/05/hello</id>
+   <content type="html">&lt;p&gt;it’s been about 10 years since i’ve had a working website. i’ve had the domains for a while but they’ve just been pointing to my &lt;a href=&quot;http://instagram.com/samdavid&quot;&gt;instagram&lt;/a&gt;. do it for the double tapsssssss.&lt;/p&gt;
+
+&lt;p&gt;having a lot of free time lately, i’m starting up again.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3s to &lt;a href=&quot;http://codyrobert.com&quot;&gt;my husband&lt;/a&gt; for suggesting github. i was so happy to find &lt;a href=&quot;https://github.com/swanson/lagom&quot;&gt;this nice, clean layout&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;i got more things rolling out soon too. &lt;a href=&quot;http://instagram.com/whiskeyandboardgames&quot;&gt;sneak peak&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;oh. and here’s thomas:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://scontent.cdninstagram.com/vp/965e2ccfd87d111395780fb4b38339fc/5B380755/t51.2885-15/s640x640/sh0.08/e35/28152635_345891839242716_315887633370710016_n.jpg&quot; alt=&quot;first image&quot; /&gt;&lt;/p&gt;
+</content>
  </entry>
- {% endfor %}
+ 
  
 </feed>

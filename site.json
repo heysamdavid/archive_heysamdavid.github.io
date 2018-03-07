@@ -1,11 +1,9 @@
----
----
 [
-{% for item in site.posts %}
-{"date": {{ item.date | date_to_rfc822 | jsonify }},
-"categories": {{ item.categories | jsonify }},
-"tags": {{ item.tags | jsonify}},
-"title": {{ item.title | jsonify}},
-"url": {{ item.url | jsonify}}},
-{% endfor %}
+
+{"date": "Mon, 05 Mar 2018 00:00:00 -0800",
+"categories": ["blog"],
+"tags": ["pdx"],
+"title": "hell[o]",
+"url": "/blog/2018/03/05/hello.html"},
+
 false]
