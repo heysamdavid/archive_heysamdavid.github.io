@@ -6,4 +6,5 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
 gems:
   - jekyll-auto-image
+  - jekyll-admin
   
