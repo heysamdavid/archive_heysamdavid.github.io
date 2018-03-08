@@ -7,4 +7,25 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 gems:
   - jekyll-auto-image
   - jekyll-admin
-  
+  - jekyll-archives
+
+image: http://www.gravatar.com/avatar/19095c21ff76c860e083deda00b328c3?s=200
+
+jekyll-archives:
+  enabled: [all]
+  layout: 'archive'
+  permalinks:
+    year: '/blog/:year/'
+    month: '/blog/:year/:month/'
+    day: '/blog/:year/:month/:day/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      category: "blog"
